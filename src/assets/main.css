@@ -1,0 +1,119 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.div-hover {
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.div-hover:hover {
+  background-color: #C7BC41;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.normal-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #97EBB7;
+}
+
+.text-for-btn {
+  text-transform: none !important;
+}
+
+.title-head {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.title-page {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 22px;
+}
+
+.flex-start-row {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  width: 100%;
+}
+
+.flex-start-column {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-center-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+#app {
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  font-family: "Manrope", monospace;
+  color: black;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
